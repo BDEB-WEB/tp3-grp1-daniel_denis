@@ -33,7 +33,7 @@
 
     <nav>
         <div class="texteNav">
-            <a href="#" target="_self">Accueil</a>
+            <a href="../PageIndex.html" target="_self">Accueil</a>
             <a href="../HTML/Page Activites.html" target="_self">Activites</a>
             <a href="#" target="_self">Trajets</a>
         </div>
@@ -63,6 +63,17 @@
 <p class="videosource">
     Source: 
     Claude Leduc https://www.youtube.com/watch?v=Lul9thI37kA</p>
+        <div class="posvideoPlageActivites" style="text-align:center;">
+
+            <button onmouseover="faireDemarrer();">Démarrer/Pause</button> 
+            <button onmouseout="faireGrossir();">Grossir</button>
+            <button onclick="faireDiminuer();">Diminuer</button>
+            <button onmousedown="faireNormal();">Normal</button>
+            <br><br>
+            <video id="video1" width="500" height="304">
+            <source src="../Video/VARADERO BEACH - CUBA 4K.mp4" type="video/mp4">
+            </video>
+            </div>
     <div class="posActivitesRoche">
         <img src="../Images/ActivitesRoche.png" width="470px"
         height="400px" >
@@ -74,5 +85,23 @@
 <div class="positionImagedeBas">
     <img src="../Images/ImagedeBasdePage.png" width="70px">
 </div>
+<script>
+    var myVideo = document.getElementById("video1");
+    function faireDemarrer() {
+    if (myVideo.paused)
+    myVideo.play();
+    else
+    myVideo.pause();
+    }
+    function faireGrossir() {
+    myVideo.width = 600;
+    }
+    function faireDiminuer() {
+    myVideo.width = 320;
+    }
+    function faireNormal() {
+    myVideo.width = 500;
+    }
+    </script>
 </body>
 </html>

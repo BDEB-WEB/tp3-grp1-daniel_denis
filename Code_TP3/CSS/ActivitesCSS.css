@@ -160,3 +160,9 @@ left: 1300px;
 top: 688px;
 
 }
+.posvideoPlageActivites{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+top: 140%;
+}

@@ -124,3 +124,8 @@ align-items: center;
 text-align: center;
 
 }
+.positionAudio{
+    position: relative;
+    left: 300px;
+    top: 300px; 
+}
