@@ -1,3 +1,5 @@
+/* Formattage du Texte Header avec positionnement*/
+
 header {
     background-color: #0196F2;
     height: 143px;
@@ -13,6 +15,7 @@ header {
 
 }
 
+/* Formattage du texte de navigation avec positionnement */
 nav {
     background-color: #88C2F7;
     height: 63px;
@@ -23,6 +26,7 @@ nav {
     left: 0px;
 }
 
+/* Formattage titre de page avec positionnement*/
 .postitionTextHead {
     text-align: center;
     position: relative;
@@ -30,6 +34,7 @@ nav {
     top: 22px;
 }
 
+/* Formattage de l'image de fond avec positionnement*/
 .positionImagedeFond {
     width: 100%;
     position: absolute;
@@ -39,6 +44,7 @@ nav {
 
 }
 
+/* Formattage du Logo du drapeau de Cuba avec positionnement*/
 .positionImagedeHead {
     position: absolute;
     height: 103px;
@@ -46,12 +52,14 @@ nav {
     top: 15px;
 }
 
+/* Positionnement du Logo de bas de page*/
 .positionImagedeBas {
     position: absolute;
-    bottom: -500px;
+    bottom: -400px;
     right: 0px;
 }
 
+/* Formattage du sous-texte du header avec positionnement*/
 .positionTextsurImagedeFond {
     position: absolute;
     top: 30%;
@@ -64,6 +72,7 @@ nav {
 
 }
 
+/* Formattage général du texte sur l'image*/
 .posTextEnDessousImage {
     position: absolute;
     top: 100px;
@@ -78,6 +87,7 @@ nav {
     line-height: 38px;
 }
 
+/* Formattage du texte de la barre de navigation avec le positionnement*/
 .texteNav {
 
     width: 100%;
@@ -94,6 +104,7 @@ nav {
     text-align: center;
 }
 
+/* Formattage du texte de corps*/
 .texteIndex {
     position: relative;
     width: 1700px;
@@ -111,12 +122,14 @@ nav {
 
 }
 
+/* Position de la vidéo youtube*/
 .positionYoutubeVideo {
     position: relative;
     left: 1000px;
     top: 500px;
 }
 
+/* Formattage du texte de source avec positionnement*/
 .sourcevideoYoutube {
     position: relative;
     width: 100%;
@@ -136,6 +149,7 @@ nav {
 
 }
 
+/* Positionnement de l'audio*/
 .positionAudio {
     position: relative;
     left: 300px;
