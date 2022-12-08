@@ -12,11 +12,12 @@
 <body>
 
     <header>
+        <!--Ajout du Logo Cuba avec Position-->
         <div class="positionImagedeHead">
             <img src="../Images/LogoCuba.png" width="50%">
         </div>
         <div class="postitionTextHead">
-
+            <!--Mettre les hyperliens pour changer de pages blancs -->
             <style type="text/css">
                 a:link {
                     color: white;
@@ -34,6 +35,7 @@
                 }
             </style>
             <div class="textHeader">
+                <!--Ajouter les liens pour les autres pages-->
                 <a href="./Page_A_Propos.html" target="_self">À propos</a> |
                 <a href="./Page_Contact.html" target="_self"> Contact</a>
             </div>
@@ -45,6 +47,7 @@
 
     <nav>
         <div class="texteNav">
+            <!--Deuxieme Ajout des liens pour les pages-->
             <a href="../PageIndex.html" target="_self">Accueil</a>
             <a href="./Page Activites.html" target="_self">Activités</a>
             <a href="./pageTrajet.html" target="_self">Trajets</a>
@@ -52,84 +55,96 @@
     </nav>
 
     <div class="positionImagedeFond">
+        <!--Ajout de l'image de fond avec formattage et positionnement-->
         <img src="../Images/Images_Fond_Contact.png" width="100%">
         <div class="positionTextsurImagedeFond">
+            <!--Ajout du header de page-->
             <h>Contactez-Nous</h>
 
         </div>
     </div>
 
     <div class="Logo_Form">
+        <!--Ajout du Logo du formulaire-->
         <img src="../Images/Logo_Formulaire.png">
     </div>
 
     <div class="Sous-Titre">
+        <!--Ajout du sous-titre-->
         Formulaire
     </div>
 
     <div>
-        <form action="#" method="get" >
-        <div>
-        <label class="posTexte" style="left: 750px; top: 875px;">Sujet</label>
-        <input class="formulairebutton" type="text" name="name" style="width: 500px; left: 750px; top: 900px;" placeholder="Entrez le sujet du message..." required>
-        </div>
+        <!--Ajout des boites dont l'usager doit entrer les informations nécessaires pour contacter-->
+        <form action="#" method="get">
+            <div>
+                <label class="posTexte" style="left: 750px; top: 875px;">Sujet</label>
+                <input class="formulairebutton" type="text" name="name" style="width: 500px; left: 750px; top: 900px;"
+                    placeholder="Entrez le sujet du message..." required>
+            </div>
 
-        <div>
-            <label class="posTexte" style="left: 750px; top: 975px;">Nom</label>
-            <input class="formulairebutton" style="left: 750px; top: 1000px; width: 250px;" type="text" name="name" placeholder="Entrez votre nom..." required>
+            <div>
+                <label class="posTexte" style="left: 750px; top: 975px;">Nom</label>
+                <input class="formulairebutton" style="left: 750px; top: 1000px; width: 250px;" type="text" name="name"
+                    placeholder="Entrez votre nom..." required>
             </div>
 
             <div>
                 <label class="posTexte" style="left: 1015px; top: 975px;">Courriel</label>
-                <input class="formulairebutton" style="left: 460px; width: 240px; top: 1000px; left: 1015px;" type="text" name="name" placeholder="Entrez votre courriel" required>
-                </div>
-            
-                <label class="posTexte" style="left: 750px;top: 1075px; width: 100%;">Numéro de Vol</label>
-            <input class="formulairebutton" style="top: 1100px; left: 750px; width: 500px;" type="text" name="name" placeholder="Numéro de vol (si applicable)...">
+                <input class="formulairebutton" style="left: 460px; width: 240px; top: 1000px; left: 1015px;"
+                    type="text" name="name" placeholder="Entrez votre courriel" required>
             </div>
 
-            <div>
-            
-                <label class="posTexte" style="left: 750px;top: 1175px;">Message</label>
-                <input class="formulairebutton" style="left: 750px;top: 1200px; width: 500px; height: 250px;" type="text" name="name" placeholder="Écrivez votre message..." required>
-                </div>
+            <label class="posTexte" style="left: 750px;top: 1075px; width: 100%;">Numéro de Vol</label>
+            <input class="formulairebutton" style="top: 1100px; left: 750px; width: 500px;" type="text" name="name"
+                placeholder="Numéro de vol (si applicable)...">
+    </div>
+
+    <div>
+
+        <label class="posTexte" style="left: 750px;top: 1175px;">Message</label>
+        <input class="formulairebutton" style="left: 750px;top: 1200px; width: 500px; height: 250px;" type="text"
+            name="name" placeholder="Écrivez votre message..." required>
+    </div>
+    <!--Ajout du bouton pour envoyer le formulaire-->
+    <div>
         <div>
-            <div>
-            
-                <input class="envoyezbutton" type="submit" value="Envoyez">
-                </div>
+
+            <input class="envoyezbutton" type="submit" value="Envoyez">
+        </div>
+    </div>
+    <!--Ajout sous-titre des résaux sociaux-->
+    <div class="texteresaux">
+        <u>
+            Nos résaux sociaux
+        </u>
+    </div>
+    <!--Ajout des Images cliquables (mais sans hyperlien) des résaux sociaux-->
+    <div class="Images">
+        <a href="#"><img src="../Images/Logo_YTB.png"></a>
+
+        <a href="#"><img src="../Images/Logo_FB.png"></a>
+        <a href="#"><img src="../Images/Logo_Twitter.png"></a>
+        <div class="Pinterest">
+            <!--Formattage de l'image Pinterest-->
+            <style>
+                .Pinterest {
+                    position: absolute;
+                    left: 430px;
+                    bottom: -10px;
+                }
+            </style>
+            <a href="#"><img src="../Images/Logo_Pinterest.png"></a>
         </div>
 
-        <div class="texteresaux">
-            <u>
-                Nos résaux sociaux
-            </u>
-        </div>
-
-        <div class="Images">
-            <a href="#"><img src="../Images/Logo_YTB.png"></a>
-
-            <a href="#"><img src="../Images/Logo_FB.png"></a>
-            <a href="#"><img src="../Images/Logo_Twitter.png"></a>
-            <div class="Pinterest">
-                <style>
-                    .Pinterest{
-                        position: absolute;
-                        left: 430px;
-                        bottom: -10px;
-                    }
-                </style>
-                            <a href="#"><img src="../Images/Logo_Pinterest.png"></a>
-            </div>
-
-            <a href="#"><img src="../Images/Logo_Insta.png"></a>
-        </div>
+        <a href="#"><img src="../Images/Logo_Insta.png"></a>
+    </div>
 
 
 
 
 
-
+    <!--Ajout du Logo de Bas de page-->
     <div class=" positionImagedeBas">
         <img src="../Images/ImagedeBasdePage.png" width="70px">
     </div>

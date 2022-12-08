@@ -1,4 +1,5 @@
-header{
+/* Formattage du Texte Header avec positionnement*/
+header {
     background-color: #0062B3;
     height: 143px;
     margin: 0px auto;
@@ -9,10 +10,12 @@ header{
     font-size: 32px;
     color: #FFFFFF;
     font-weight: 500px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-nav{
+
+/* Formattage du texte de navigation avec positionnement */
+nav {
     background-color: #88C2F7;
     height: 63px;
     width: 100%;
@@ -21,13 +24,17 @@ nav{
     top: 140px;
     left: 0px;
 }
-.postitionTextHead{
+
+/* Formattage titre de page avec positionnement*/
+.postitionTextHead {
     text-align: center;
     position: relative;
     left: 600px;
     top: 22px;
 }
-.positionImagedeFond{
+
+/* Formattage de l'image de fond avec positionnement*/
+.positionImagedeFond {
     width: 100%;
     position: absolute;
     top: 203px;
@@ -35,43 +42,53 @@ nav{
     margin: 0px auto;
 
 }
-.positionImagedeHead{
+
+/* Formattage du Logo du drapeau de Cuba avec positionnement*/
+.positionImagedeHead {
     position: absolute;
     height: 103px;
     left: 77px;
     top: 15px;
 }
-.positionImagedeBas{
+
+/* Positionnement du Logo de bas de page*/
+.positionImagedeBas {
     position: absolute;
-bottom: -700px;
-right: 0px;
+    bottom: -700px;
+    right: 0px;
 }
-.positionTextsurImagedeFond{
+
+/* Formattage du sous-texte du header avec positionnement*/
+.positionTextsurImagedeFond {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
     color: #FFFFFF;
-    font-weight:bold;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.posTextEnDessousImage{
+
+/* Formattage général du texte sur l'image*/
+.posTextEnDessousImage {
     position: absolute;
     top: 70px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-width: 400px;
-text-align: center;
-line-height: 38px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    width: 400px;
+    text-align: center;
+    line-height: 38px;
 }
-.texteNav{
-   
+
+/* Formattage du texte de la barre de navigation avec le positionnement*/
+.texteNav {
+
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, 600px);
@@ -80,26 +97,29 @@ line-height: 38px;
     align-content: flex-start;
     height: auto;
     font-weight: 600;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 150%;
     padding: 14px 0;
     text-align: center;
 }
-.positionActivitesPlage{
+
+/* Formattage et Position des éléments des activités sur la plage*/
+.positionActivitesPlage {
     position: relative;
-width: 341px;
-height: 256px;
-left: 118px;
-top: 680px;
+    width: 341px;
+    height: 256px;
+    left: 118px;
+    top: 680px;
 }
-.positiontextActivitesPlage{
+
+.positiontextActivitesPlage {
     position: absolute;
     width: 322px;
-height: 57px;
-left: 320px;
-top: 1020px;
-    
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 57px;
+    left: 320px;
+    top: 1020px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -108,61 +128,69 @@ top: 1020px;
     align-items: center;
     text-align: right;
     color: #FFFFFF;
-       
+
 }
-.textDessousImagePlage{
+
+.textDessousImagePlage {
     position: absolute;
-width: 470px;
-height: 152px;
-left: 120px;
-top: 1070px;
+    width: 470px;
+    height: 152px;
+    left: 120px;
+    top: 1070px;
 
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 42px;
-display: flex;
-align-items: center;
-text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
 }
-.posvideoActivites{
+
+/* Position de la vidéo avec les activités*/
+.posvideoActivites {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-top: 95%;
+    top: 95%;
 
 }
-.videosource{
+
+/* Position et Formattage de la deuxième vidéo importée*/
+.videosource {
     position: relative;
     width: 100%;
     height: 16px;
     left: 40%;
     top: 780px;
 
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
-}
-.posActivitesRoche{
-    position: absolute;
-width: 341px;
-height: 256px;
-left: 1300px;
-top: 688px;
 
 }
-.posvideoPlageActivites{
+
+/* Positionnement des éléments de l'activité sur Roches*/
+.posActivitesRoche {
+    position: absolute;
+    width: 341px;
+    height: 256px;
+    left: 1300px;
+    top: 688px;
+
+}
+
+.posvideoPlageActivites {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-top: 140%;
+    top: 140%;
 }

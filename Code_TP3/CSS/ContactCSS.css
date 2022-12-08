@@ -1,3 +1,4 @@
+/* Positionnement et Formattage du header*/
 header {
     background-color: #5AB9E7;
     height: 143px;
@@ -13,6 +14,7 @@ header {
 
 }
 
+/* Positionnement et Formattage de la barre de navigation*/
 nav {
     background-color: #88C2F7;
     height: 63px;
@@ -23,6 +25,7 @@ nav {
     left: 0px;
 }
 
+/* Formattage titre de page avec positionnement*/
 .postitionTextHead {
     text-align: center;
     position: relative;
@@ -30,6 +33,7 @@ nav {
     top: 22px;
 }
 
+/* Formattage de l'image de fond avec positionnement*/
 .positionImagedeFond {
     width: 100%;
     position: absolute;
@@ -39,6 +43,7 @@ nav {
 
 }
 
+/* Formattage du Logo du drapeau de Cuba avec positionnement*/
 .positionImagedeHead {
     position: absolute;
     height: 103px;
@@ -46,12 +51,14 @@ nav {
     top: 15px;
 }
 
+/* Positionnement du Logo de bas de page*/
 .positionImagedeBas {
     position: absolute;
     bottom: -750px;
     right: 0px;
 }
 
+/* Formattage du sous-texte du header avec positionnement*/
 .positionTextsurImagedeFond {
     position: absolute;
     top: 30%;
@@ -64,6 +71,7 @@ nav {
 
 }
 
+/* Formattage du texte de la barre de navigation avec le positionnement*/
 .texteNav {
 
     width: 100%;
@@ -80,103 +88,15 @@ nav {
     text-align: center;
 }
 
-.texteEquipe {
-
-    color: black;
-    position: absolute;
-    top: 680px;
-    left: 875px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-}
-
-.texteDevs {
-    color: black;
-    position: absolute;
-    top: 750px;
-    left: 850px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-}
-
-.Image_Dev_2 {
-    position: absolute;
-    top: 850px;
-    right: 60%;
-}
-
-.Nom_Dev_2 {
-    color: black;
-    position: absolute;
-    top: 1350px;
-    right: 68%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.Image_Dev_1{
-    position: absolute;
-    top: 850px;
-    right: 20%;
-}
-
-.Nom_Dev_1{
-    color: black;
-    position: absolute;
-    top: 1350px;
-    right: 28%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.texte_dessous_ima{
-    color: black;
-    position: absolute;
-    top: 1400px;
-    left: 700px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-}
-
-.corps{
-    color: black;
-    position: absolute;
-    top: 1500px;
-    left: 7%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-}
-
-.corps2{
-    color: black;
-    position: absolute;
-    top: 1750px;
-    left: 7%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-}
-
-.Logo_Form{
+/* Positionnement du Logo du formulaire*/
+.Logo_Form {
     position: absolute;
     top: 675px;
     right: 1000px;
 }
 
-.Sous-Titre{
+/* Positionnement et Formattage du sous titre*/
+.Sous-Titre {
     color: black;
     position: absolute;
     top: 700px;
@@ -187,55 +107,59 @@ nav {
     font-size: 65px;
 }
 
-.formulairebutton{
+/* Positionement et Formattage des cases pour remplir le formulaire */
+.formulairebutton {
     position: absolute;
-width: 335px;
-height: 39px;
-left: 1130px;
-top: 770px;
-border-color: #CBCBCB;
-background: #CBCBCB;
-border-radius: 5px;
-color: #00000080;
-text-align: center;
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-display: flex;
-align-items: center;
-text-align: center;
+    width: 335px;
+    height: 39px;
+    left: 1130px;
+    top: 770px;
+    border-color: #CBCBCB;
+    background: #CBCBCB;
+    border-radius: 5px;
+    color: #00000080;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
-.posTexte{
+
+/* Positionnement et Formattage des titres des cases pour remplir le formulaire*/
+.posTexte {
     position: absolute;
     width: 32px;
     height: 26px;
     left: 1130px;
     top: 750px;
-    
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #000000;
 
 }
 
-.envoyezbutton{
-    position:absolute;
+/* Positionnement et Formattage du bouton Envoyer*/
+.envoyezbutton {
+    position: absolute;
     border-radius: 5px;
-    background-color:#0196F2 ;
+    background-color: #0196F2;
     width: 330px;
     height: 80px;
-    color:#FFFFFF;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 32px;
     left: 850px;
@@ -244,13 +168,15 @@ text-align: center;
 
 }
 
-.Images{
+/* Positionnement des images des résaux*/
+.Images {
     position: absolute;
     top: 1600px;
     left: 15px;
 }
 
-.texteresaux{
+/* Positionnement et Formattage du sous-titre des résaux*/
+.texteresaux {
     color: black;
     position: absolute;
     bottom: -625px;

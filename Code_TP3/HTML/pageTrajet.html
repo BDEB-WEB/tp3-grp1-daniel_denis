@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trajets</title>
-<link rel="stylesheet" href="../CSS/TrajetsCSS.css">
+    <link rel="stylesheet" href="../CSS/TrajetsCSS.css">
 </head>
+
 <body>
-   
+
     <header>
+        <!--Ajout du Logo Cuba avec Position-->
         <div class="positionImagedeHead">
-            <img src="../Images/LogoCuba.png"width="50%">
+            <img src="../Images/LogoCuba.png" width="50%">
         </div>
         <div class="postitionTextHead">
+            <!--Mettre les hyperliens pour changer de pages blancs -->
 
             <style type="text/css">
-                a:link {color: white;text-decoration: none;}
-                a:visited {color: white;text-decoration: none;}  
-                a:active {color: white; text-decoration: none;}
-               
+                a:link {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:visited {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:active {
+                    color: white;
+                    text-decoration: none;
+                }
             </style>
             <div class="textHeader">
-            <a href="./Page_A_Propos.html" target="_self">À propos</a> |
-            <a  href="./Page_Contact.html" target="_self" > Contact</a>
-        </div>
-        </p>
+                <!--Deuxieme Ajout des liens pour les pages-->
+                <a href="./Page_A_Propos.html" target="_self">À propos</a> |
+                <a href="./Page_Contact.html" target="_self"> Contact</a>
+            </div>
+            </p>
 
-       
-       </div>
-        </header>
+
+        </div>
+    </header>
 
     <nav>
         <div class="texteNav">
+            <!--Ajouter les liens pour les autres pages-->
             <a href="../PageIndex.html" target="_self">Accueil</a>
             <a href="./Page Activites.html" target="_self">Activités</a>
             <a href="./pageTrajet.html" target="_self">Trajets</a>
@@ -40,42 +56,52 @@
     </nav>
 
     <div class="positionImagedeFond">
+        <!--Ajout de l'image de fond avec formattage et positionnement-->
         <img src="../Images/ImageDeFondTrajet.png" width="100%">
         <div class="positionTextsurImagedeFond">
             <h>Trajets</h>
         </div>
     </div>
     <div>
-        <form action="#" method="get" >
-        <div>
-        <label class="posTexte">Vers</label>
-        <input class="formulairebutton" type="text" name="name" placeholder="Veuillez entrer votre destination" required>
-        </div>
-        <div>
-            <label class="posTexte" style="top: 855px;">Retour</label>
-            <input class="formulairebutton" style="top: 875px;" type="text" name="name" placeholder="Veuillez entrer votre date de retour" required>
+        <!--Ajout des cases pour remplir le formulaire-->
+        <form action="#" method="get">
+            <div>
+                <label class="posTexte">Vers</label>
+                <input class="formulairebutton" type="text" name="name" placeholder="Veuillez entrer votre destination"
+                    required>
             </div>
-        <div>
-        <label class="posTexte" style="left: 460px;">De</label>
-        <input class="formulairebutton" style="left: 460px;" type="text" name="name" placeholder="Veuillez entrer votre ville" required>
-        </div>
-        <div>
-            <label class="posTexte" style="left: 460px;top: 855px;">Départ</label>
-            <input class="formulairebutton" style="top: 875px;left:460px;" type="text" name="name" placeholder="Veuillez entrer votre date de départ" required>
+            <div>
+                <label class="posTexte" style="top: 855px;">Retour</label>
+                <input class="formulairebutton" style="top: 875px;" type="text" name="name"
+                    placeholder="Veuillez entrer votre date de retour" required>
+            </div>
+            <div>
+                <label class="posTexte" style="left: 460px;">De</label>
+                <input class="formulairebutton" style="left: 460px;" type="text" name="name"
+                    placeholder="Veuillez entrer votre ville" required>
+            </div>
+            <div>
+                <label class="posTexte" style="left: 460px;top: 855px;">Départ</label>
+                <input class="formulairebutton" style="top: 875px;left:460px;" type="text" name="name"
+                    placeholder="Veuillez entrer votre date de départ" required>
             </div>
             <div>
                 <label class="posTexte" style="left: 460px;top: 960px;">Passagers</label>
-                <input class="formulairebutton" style="left: 460px;top: 980px;" type="text" name="name" placeholder="Veuillez entrer le nombre de passagers  " required>
-                </div>
-        <div>
-            
-        <input class="voyagezbutton" type="submit" value="Voyagez">
-        </div>
-       </form></div>
-  
+                <input class="formulairebutton" style="left: 460px;top: 980px;" type="text" name="name"
+                    placeholder="Veuillez entrer le nombre de passagers  " required>
+            </div>
+            <div>
+                <!--Ajout du bouton pour envoyer le formulaire-->
+                <input class="voyagezbutton" type="submit" value="Voyagez">
+            </div>
+        </form>
+    </div>
+
+    <!--Ajout du Logo de bas de page-->
     <div class="positionImagedeBas">
-    <img src="../Images/ImagedeBasdePage.png" width="70px">
-</div>
+        <img src="../Images/ImagedeBasdePage.png" width="70px">
+    </div>
 
 </body>
+
 </html>

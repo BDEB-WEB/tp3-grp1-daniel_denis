@@ -1,3 +1,5 @@
+/* Formattage du Texte Header avec positionnement*/
+
 header {
     background-color: #70A3D2;
     height: 143px;
@@ -13,6 +15,8 @@ header {
 
 }
 
+
+/* Formattage du texte de navigation avec positionnement */
 nav {
     background-color: #88C2F7;
     height: 63px;
@@ -23,12 +27,15 @@ nav {
     left: 0px;
 }
 
+/* Formattage titre de page avec positionnement*/
 .postitionTextHead {
     text-align: center;
     position: relative;
     left: 600px;
     top: 22px;
 }
+
+/* Formattage de l'image de fond avec positionnement*/
 
 .positionImagedeFond {
     width: 100%;
@@ -39,6 +46,7 @@ nav {
 
 }
 
+/* Formattage du Logo du drapeau de Cuba avec positionnement*/
 .positionImagedeHead {
     position: absolute;
     height: 103px;
@@ -46,12 +54,14 @@ nav {
     top: 15px;
 }
 
+/* Positionnement du Logo de bas de page*/
 .positionImagedeBas {
     position: absolute;
     bottom: -1050px;
     right: 0px;
 }
 
+/* Formattage du sous-texte du header avec positionnement*/
 .positionTextsurImagedeFond {
     position: absolute;
     top: 30%;
@@ -64,6 +74,7 @@ nav {
 
 }
 
+/* Formattage du texte de la barre de navigation avec le positionnement*/
 .texteNav {
 
     width: 100%;
@@ -80,6 +91,7 @@ nav {
     text-align: center;
 }
 
+/* Position et Formattage du texe qui présente l'équipe*/
 .texteEquipe {
 
     color: black;
@@ -92,6 +104,7 @@ nav {
     font-size: 24px;
 }
 
+/* Position et Formattage du texe qui présente les développeurs*/
 .texteDevs {
     color: black;
     position: absolute;
@@ -103,12 +116,14 @@ nav {
     font-size: 24px;
 }
 
+/* Position de l'image du deuxième développeur*/
 .Image_Dev_2 {
     position: absolute;
     top: 850px;
     right: 60%;
 }
 
+/* Position et Formattage du texte du deuxième développeur*/
 .Nom_Dev_2 {
     color: black;
     position: absolute;
@@ -120,13 +135,15 @@ nav {
     font-size: 18px;
 }
 
-.Image_Dev_1{
+/* Position de l'image du premier développeur*/
+.Image_Dev_1 {
     position: absolute;
     top: 850px;
     right: 20%;
 }
 
-.Nom_Dev_1{
+/* Position et Formattage du texte du premier développeur*/
+.Nom_Dev_1 {
     color: black;
     position: absolute;
     top: 1350px;
@@ -137,7 +154,8 @@ nav {
     font-size: 18px;
 }
 
-.texte_dessous_ima{
+/* Position et Formattage du texte en dessous des images*/
+.texte_dessous_ima {
     color: black;
     position: absolute;
     top: 1400px;
@@ -148,7 +166,8 @@ nav {
     font-size: 24px;
 }
 
-.corps{
+/* Formattage et Position du premier paragraphe*/
+.corps {
     color: black;
     position: absolute;
     top: 1500px;
@@ -159,7 +178,8 @@ nav {
     font-size: 22px;
 }
 
-.corps2{
+/* Formattage et Position du deuxième paragraphe*/
+.corps2 {
     color: black;
     position: absolute;
     top: 1750px;

@@ -1,38 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activités</title>
-<link rel="stylesheet" href="../CSS/ActivitesCSS.css">
+    <link rel="stylesheet" href="../CSS/ActivitesCSS.css">
 </head>
+
 <body>
-   
+
     <header>
+        <!--Ajout du Logo Cuba avec Position-->
         <div class="positionImagedeHead">
-            <img src="../Images/LogoCuba.png"width="50%">
+            <img src="../Images/LogoCuba.png" width="50%">
         </div>
         <div class="postitionTextHead">
 
+            <!--Mettre les hyperliens pour changer de pages blancs -->
             <style type="text/css">
-                a:link {color: white;text-decoration: none;}
-                a:visited {color: white;text-decoration: none;}  
-                a:active {color: white; text-decoration: none;}
-               
+                a:link {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:visited {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:active {
+                    color: white;
+                    text-decoration: none;
+                }
             </style>
             <div class="textHeader">
-            <a href="./Page_A_Propos.html" target="_self">À propos</a> |
-            <a  href="./Page_Contact.html" target="_self" > Contact</a>
-        </div>
-        </p>
+                <!--Deuxieme Ajout des liens pour les pages-->
+                <a href="./Page_A_Propos.html" target="_self">À propos</a> |
+                <a href="./Page_Contact.html" target="_self"> Contact</a>
+            </div>
+            </p>
 
-       
-       </div>
-        </header>
+
+        </div>
+    </header>
 
     <nav>
         <div class="texteNav">
+            <!--Ajouter les liens pour les autres pages-->
             <a href="../PageIndex.html" target="_self">Accueil</a>
             <a href="./Page Activites.html" target="_self">Activités</a>
             <a href="./pageTrajet.html" target="_self">Trajets</a>
@@ -40,68 +56,83 @@
     </nav>
 
     <div class="positionImagedeFond">
+        <!--Ajout de l'image de fond avec formattage et positionnement-->
         <img src="../Images/ImagedeFondActivites.png" width="100%">
         <div class="positionTextsurImagedeFond">
+            <!--Ajout du header de page-->
             <h>Activités</h>
             <p class="posTextEnDessousImage">Découvrez Cuba</p>
 
         </div>
     </div>
     <div class="positionActivitesPlage">
-        <img src="../Images/ActivitesPlage.png" width="470px"
-        height="400px" >
+        <!--Ajout de l'image qui présente les activités-->
+        <img src="../Images/ActivitesPlage.png" width="470px" height="400px">
     </div>
     <div class="positiontextActivitesPlage">
-<p>Plage Varadero</p>
+        <p>Plage Varadero</p>
     </div>
- <p class="textDessousImagePlage"> Cette longue étendue de sable blanc en poudre se trouve à côté des plus belles nuances d'eaux bleues et turquoises.</p>
-<div class="posvideoActivites">
- <iframe width="500" height="304" src="https://www.youtube.com/embed/Lul9thI37kA" 
- title="2015 05 08 Départ aéroport Montreal-Trudeau ver Cuba Cayo Guillermo, Jardines Del Ray" 
- frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p class="videosource">
-    Source: 
-    Claude Leduc https://www.youtube.com/watch?v=Lul9thI37kA</p>
-        <div class="posvideoPlageActivites" style="text-align:center;">
-
-            <button onmouseover="faireDemarrer();">Démarrer/Pause</button> 
-            <button onmouseout="faireGrossir();">Grossir</button>
-            <button onclick="faireDiminuer();">Diminuer</button>
-            <button onmousedown="faireNormal();">Normal</button>
-            <br><br>
-            <video id="video1" width="500" height="304">
+    <!--Texte qui preésente l'image-->
+    <p class="textDessousImagePlage"> Cette longue étendue de sable blanc en poudre se trouve à côté des plus belles
+        nuances d'eaux bleues et turquoises.</p>
+    <div class="posvideoActivites">
+        <!--Ajout de vidéo youtube-->
+        <iframe width="500" height="304" src="https://www.youtube.com/embed/Lul9thI37kA"
+            title="2015 05 08 Départ aéroport Montreal-Trudeau ver Cuba Cayo Guillermo, Jardines Del Ray"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <p class="videosource">
+        <!--Ajout des sources pour la vidéo youtube-->
+        Source:
+        Claude Leduc https://www.youtube.com/watch?v=Lul9thI37kA
+    </p>
+    <div class="posvideoPlageActivites" style="text-align:center;">
+        <!--Ajout des boutons javascript pour faire fonctionner la vidéo enregistrée-->
+        <button onmouseover="faireDemarrer();">Démarrer/Pause</button>
+        <button onmouseout="faireGrossir();">Grossir</button>
+        <button onclick="faireDiminuer();">Diminuer</button>
+        <button onmousedown="faireNormal();">Normal</button>
+        <br><br>
+        <video id="video1" width="500" height="304">
+            <!--Lien de la vidéo enregistrée-->
             <source src="../Video/VARADERO BEACH - CUBA 4K.mp4" type="video/mp4">
-            </video>
-            </div>
+        </video>
+    </div>
     <div class="posActivitesRoche">
-        <img src="../Images/ActivitesRoche.png" width="470px"
-        height="400px" >
+        <!--Ajout de l'image des activtés sur roche-->
+        <img src="../Images/ActivitesRoche.png" width="470px" height="400px">
     </div>
     <div class="positiontextActivitesPlage" style="left: 1520px">
-<p>Plongée Vara</p>
+        <!--Texte de l'image des activités sur roche-->
+        <p>Plongée Vara</p>
     </div>
- <p class="textDessousImagePlage" style="left: 1300px;top:1090px;"> Les stalagmites et les stalactites vous guident dans des eaux bleues fraîches irréelles dans les mâchoires de la terre mère.</p>
-<div class="positionImagedeBas">
-    <img src="../Images/ImagedeBasdePage.png" width="70px">
-</div>
-<script>
-    var myVideo = document.getElementById("video1");
-    function faireDemarrer() {
-    if (myVideo.paused)
-    myVideo.play();
-    else
-    myVideo.pause();
-    }
-    function faireGrossir() {
-    myVideo.width = 600;
-    }
-    function faireDiminuer() {
-    myVideo.width = 320;
-    }
-    function faireNormal() {
-    myVideo.width = 500;
-    }
+    <!--Texte et Image d'en dessous la plage-->
+    <p class="textDessousImagePlage" style="left: 1300px;top:1090px;"> Les stalagmites et les stalactites vous guident
+        dans des eaux bleues fraîches irréelles dans les mâchoires de la terre mère.</p>
+    <div class="positionImagedeBas">
+        <img src="../Images/ImagedeBasdePage.png" width="70px">
+    </div>
+    <script>
+        /* Code Javascript pour faire fonctionner les boutons*/
+        var myVideo = document.getElementById("video1");
+        function faireDemarrer() {
+            if (myVideo.paused)
+                myVideo.play();
+            else
+                myVideo.pause();
+        }
+        function faireGrossir() {
+            myVideo.width = 600;
+        }
+        function faireDiminuer() {
+            myVideo.width = 320;
+        }
+        function faireNormal() {
+            myVideo.width = 500;
+        }
     </script>
 </body>
+
 </html>
