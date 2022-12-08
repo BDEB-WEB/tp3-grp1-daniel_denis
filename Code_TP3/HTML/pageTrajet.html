@@ -22,7 +22,7 @@
                
             </style>
             <div class="textHeader">
-            <a href="#" target="_self">À propos</a> |
+            <a href="../HTML/Page_A_Propos.html" target="_self">À propos</a> |
             <a  href="#" target="_self" > Contact</a>
         </div>
         </p>
@@ -45,18 +45,31 @@
             <h>Trajets</h>
         </div>
     </div>
-    <div class="texteformulairepos">
-        <form action="resultat.html" method="get" >
+    <div>
+        <form action="#" method="get" >
         <div>
-        <label>De</label>
-        <input type="text" name="name"required>
+        <label class="posTexte">Vers</label>
+        <input class="formulairebutton" type="text" name="name" placeholder="Veuillez entrer votre destination" required>
         </div>
         <div>
-        <label> </label>
-        <input type="email" name="email" required>
+            <label class="posTexte" style="top: 855px;">Retour</label>
+            <input class="formulairebutton" style="top: 875px;" type="text" name="name" placeholder="Veuillez entrer votre date de retour" required>
+            </div>
+        <div>
+        <label class="posTexte" style="left: 460px;">De</label>
+        <input class="formulairebutton" style="left: 460px;" type="text" name="name" placeholder="Veuillez entrer votre ville" required>
         </div>
-        <div style="left: 600px;">
-        <input class="voyagezbutton"  type="submit" value="Voyagez">
+        <div>
+            <label class="posTexte" style="left: 460px;top: 855px;">Départ</label>
+            <input class="formulairebutton" style="top: 875px;left:460px;" type="text" name="name" placeholder="Veuillez entrer votre date de départ" required>
+            </div>
+            <div>
+                <label class="posTexte" style="left: 460px;top: 960px;">Passagers</label>
+                <input class="formulairebutton" style="left: 460px;top: 980px;" type="text" name="name" placeholder="Veuillez entrer le nombre de passagers  " required>
+                </div>
+        <div>
+            
+        <input class="voyagezbutton" type="submit" value="Voyagez">
         </div>
        </form></div>
   
